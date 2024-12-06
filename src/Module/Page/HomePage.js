@@ -33,7 +33,7 @@ const HomePage = () => {
     }, []);
 
     const listName = [{
-        name: "jack",
+        name: "jacob",
         age: 24
     }]
 
