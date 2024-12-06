@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Transition for the navbar */
+.transition-transform {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Initially show the navbar */
+.translate-y-0 {
+  transform: translateY(10);
+}
+
+/* Hide the navbar by translating it downwards */
+.translate-y-20 {
+  transform: translateY(5rem); /* Adjust the value based on your navbar height */
 }
